@@ -23,3 +23,9 @@ summary(ChickWeight)
 with(ChickWeight, plot(Time, weight, col=Diet))
 ```
 
+# Alteracao necessaria
+
+```{r}
+mean(ChickWeight$weight)
+```
+
